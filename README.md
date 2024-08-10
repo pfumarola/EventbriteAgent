@@ -1,26 +1,19 @@
-# My plugin
+# Eventbrite Agent
 
-[![awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=awesome+plugin&color=383938&style=for-the-badge&logo=cheshire_cat_ai)](https://)  
-[![Awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=Awesome+plugin&color=000000&style=for-the-badge&logo=cheshire_cat_ai)](https://)  
-[![awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=awesome+plugin&color=F4F4F5&style=for-the-badge&logo=cheshire_cat_black)](https://)
+[![awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=Eventbrite-Agent&color=383938&style=for-the-badge&logo=cheshire_cat_ai)](https://github.com/pfumarola/EventbriteAgent)
 
-Write here all the useful information about your plugin.
+![Eventbrite Agent Logo](https://raw.githubusercontent.com/pfumarola/EventbriteAgent/main/logo.png)
 
-This repository is the template to automate the release of official Cheshire Cat AI plugins. 
+This plugin transforms Cheshire Cat AI into an Eventbrite agent that helps you find events nearby. 
 
-## Usage
+## Getting Started
 
-1. Create a new repository clicking on the `Use this template` button.
-2. Clone your new repo directly in the Cat's `plugins` folder.
-3. Run the `setup.py` script:
-```bash
-python setup.py
-```
-The script will prompt you to write the name of your plugin and make an initial setup setting the name in the files.
+To get started, you need to provide an Eventbrite token. Follow these steps to obtain it:
 
-4. Start developing!
+1. Go to the [Eventbrite Developer Portal](https://www.eventbrite.com/platform/api).
+2. Log in with your Eventbrite account.
+3. Navigate to the "API Keys" section.
+4. Click on "Create API Key" and follow the instructions.
+5. Copy the generated token.
 
-> **Important**
-> A new release of your plugin is triggered every time you set a new `version` in the `plugin.json` file.
-> Please, remember to set it correctly every time you want to release an update.
-
+Once you have the token, insert it into the plugin settings to start searching for events.

@@ -1,10 +1,10 @@
 {
-    "name": "My plugin",
+    "name": "Eventbrite Agent",
     "version": "0.0.1",
-    "description": "Description of my_plugin.",
-    "author_name": "Me",
-    "author_url": "https://mywebsite.me",
-    "plugin_url": "https://github.com/my_name/my_plugin",
-    "tags": "cat, template, example",
-    "thumb": "https://raw.githubusercontent.com/my_repo_path/my_plugin.png"
+    "description": "This plugin allows quickly search for events on Eventbrite",
+    "author_name": "Paolo Fumarola",
+    "author_url": "paolofumarola.it",
+    "plugin_url": "https://github.com/pfumarola/EventbriteAgent",
+    "tags": "events, music, freetime, eventbrite, search, agent, assistant",
+    "thumb": "https://raw.githubusercontent.com/pfumarola/EventbriteAgent/main/logo.png"
 }
